@@ -94,7 +94,7 @@ export default function WelcomeScreen({ navigation }) {
   const handleGetStarted = () => {
     if (user) {
       // User is already logged in
-      navigation.navigate('MainDrawer');
+      navigation.navigate('Main');
     } else {
       navigation.navigate('SignIn', { role });
     }

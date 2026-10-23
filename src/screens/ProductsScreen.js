@@ -261,7 +261,7 @@ export default function ProductsScreen({ navigation }) {
               <RoundIconButton
                 name="cart-outline"
                 badgeCount={totalItems}
-                onPress={() => navigation.navigate('Cart')}
+                onPress={() => navigation.navigate('CartTab')}
                 style={{ marginRight: 8 }}
               />
             )}
